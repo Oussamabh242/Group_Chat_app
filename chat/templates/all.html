@@ -1,0 +1,4 @@
+<a href="{% url 'join' %}">join</a>
+{%for i  in g%}
+<a href="/room/id={{i.id}}">{{i.name}}</a>
+{%endfor%}
